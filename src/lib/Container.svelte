@@ -1,6 +1,6 @@
 <script>
 	export let style, nopad
-	import { containerstyles } from '$lib/gridstyles'
+	import { containerstyles } from '$lib/styles'
 </script>
 
 {#if !nopad}

@@ -11,3 +11,13 @@ export let containerstyles = {
 	x: "max-w-screen-2xl mx-auto px-6 sm:px-10 md:px-12 xl:px-24",
 	y: "py-6 sm:py-10 md:py-12 xl:py-24",
 }
+
+export let padstyles = {
+	normal: "p-6 sm:p-10 md:p-12 xl:p-24",
+	left: "pl-6 sm:pl-10 md:pl-12 xl:pl-24",
+}
+
+export let translate = {
+	right: "sm:translate-x-10 md:translate-x-12 xl:translate-x-24",
+	left: "sm:-translate-x-10 md:-translate-x-12 xl:-translate-x-24",
+}

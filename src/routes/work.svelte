@@ -7,10 +7,10 @@
 import Panel from '../lib/Panel.svelte';
 </script>
 
-<Panel style="bg-[url('/bg-blue-lowres.webp')] pt-32">
+<Panel style="bg-[url('/bg-blue-lowres.webp')] pt-32 barlow">
 	<Container>
 
-		<div class="grid grid-cols-1 md:grid-cols-6 gap-8 h-full">
+		<div class="grid grid-cols-1 md:grid-cols-6 gap-4 h-full">
 
 			<div class="md:col-span-3 lg:col-span-4">
 				<h4 class="uppercase flex gap-3">
@@ -22,7 +22,7 @@ import Panel from '../lib/Panel.svelte';
 					Latest Project
 				</h4>
 				<hr class="my-4 "/>
-				<h3 class="mt-8 text-4xl text-white">The Fuze</h3>
+				<h3 class="mt-8 text-4xl text-white dekar">The Fuze</h3>
 				<div class="flex opacity-60 text-sky-200 gap-x-4 gap-y-2 flex-row flex-wrap text-sm my-2">
 					<div class="flex gap-2 shrink-0">
 						<img src="/icons/calendar.svg" width="20" height="20" alt="Project completed"/>
@@ -75,7 +75,7 @@ import Panel from '../lib/Panel.svelte';
 
 		<div class="flex justify-between mt-16 md:mt-8">
 			<h4 class="uppercase">Older Work (temporary image)</h4>
-			<h5 class="flex ml-1 text-center sm:hidden uppercase text-xs bg-black rounded-md py-[3px] px-2 text-red-500 animate-pulse">Desktop/tablet recommended</h5>
+			<h5 class="flex ml-1 text-center sm:hidden uppercase text-xs bg-black rounded-md py-[3px] px-2 text-red-500 animate-pulse items-center justify-center">Desktop/tablet recommended</h5>
 		</div>
 		<hr class="my-4"/>
 		<a href="/work.webp" target="_blank"><img src="/work.webp" alt="older work" srcset="" class="my-8"/></a>

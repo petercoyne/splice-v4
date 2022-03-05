@@ -2,7 +2,7 @@
 	import { fade, slide } from 'svelte/transition'
 	import Logo from '$lib/Logo.svelte'
 	import MobileButton from '$lib/MobileButton.svelte'
-	import { gridstyles } from '$lib/gridstyles'
+	import { gridstyles } from '$lib/styles'
 	import { menuShow, navStuck } from '$lib/stores.js'
 	import { clickOutside } from "$lib/click_outside.js"
 	import Button from '$lib/Button.svelte'
@@ -49,10 +49,10 @@
 	{#if $menuShow}
 	<div on:click="{toggleMenu}" use:clickOutside on:outclick={toggleMenu} transition:slide
 	class="sm:hidden -z-30 mt-2">
-		<div class="flex gap-4 px-6">
-			<Button icon="tool" text="Work" url="/work" dark/>
-			<Button icon="info" text="About" url="/about" dark/>
-			<Button icon="send" text="Contact" url="/contact" dark/>
+		<div class="flex gap-4 px-6 pb-2">
+			<Button icon="tool" text="Work" url="/work"/>
+			<Button icon="info" text="About" url="/about"/>
+			<Button icon="send" text="Contact" url="/contact"/>
 		</div>
 	</div>
 	{/if}
