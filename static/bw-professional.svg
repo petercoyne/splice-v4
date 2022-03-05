@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="336px" viewBox="0 0 166 336" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy</title>
+    <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#000000" stroke-width="12" fill="#FFFFFF" x="5.89908257" y="129" width="154.100917" height="201" rx="65"></rect>
+        <circle id="Oval" stroke="#000000" stroke-width="11" fill="#FFFFFF" cx="83.5" cy="53.5" r="48"></circle>
+        <ellipse id="Oval" fill="#000000" cx="67" cy="52" rx="9" ry="7"></ellipse>
+        <ellipse id="Oval-Copy" fill="#000000" cx="102" cy="52" rx="9" ry="7"></ellipse>
+        <g id="7d7b1b1cf85f9c9a910cdb106b1dcb7a" transform="translate(51.756735, 140.658776)" fill="#000000" fill-rule="nonzero">
+            <path d="M6.46285714,0 L58.0236735,0 L45.1453061,25.7804082 L19.364898,25.7804082 L6.46285714,0 Z M7.64653061,95.7828571 L56.8636735,131.577143 L64.4628571,122.462857 L62.7820408,116.54449 L12.2155102,79.7559184 L7.64653061,95.7828571 Z M51.1583673,75.8734694 L38.682449,32.2432653 L25.8040816,32.2432653 L19.8383673,53.0995918 L51.1583673,75.8734694 Z M6.1077551,101.109388 L0,122.462857 L32.2432653,161.121633 L53.5257143,135.577959 L6.1077551,101.109388 Z M18.3232653,58.4261224 L13.7542857,74.4293878 L60.4620408,108.400816 L53.4783673,83.9934694 L18.3232653,58.4261224 Z" id="Shape"></path>
+        </g>
+        <path d="M67,73.3027344 C68.9953641,79.3027344 74.6580851,82.3027344 83.9881633,82.3027344 C93.3182414,82.3027344 99.322187,79.3027344 102,73.3027344" id="Path-2" stroke="#000000" stroke-width="7" stroke-linecap="round"></path>
+    </g>
+</svg>
