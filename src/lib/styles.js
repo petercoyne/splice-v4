@@ -1,5 +1,5 @@
 export let gridstyles = {
-	x: "gap-x-4 max-w-screen-2xl mx-auto px-6 sm:px-10 md:px-12 xl:px-24",
+	x: "gap-x-4 max-w-screen-2xl mx-auto px-6 sm:px-10 md:px-12 xl:px-24 lg:gap-8",
 	y: "gap-y-4 py-4 sm:py-10 md:py-12 xl:py-24",
 	top: "gap-y-4 pt-4 sm:pt-10 md:pt-12 xl:pt-24",
 	yshrunk: "py-4",
@@ -15,6 +15,12 @@ export let containerstyles = {
 export let padstyles = {
 	normal: "p-6 sm:p-10 md:p-12 xl:p-24",
 	left: "pl-6 sm:pl-10 md:pl-12 xl:pl-24",
+	top: "pt-6 sm:pt-10 md:pt-12 xl:pt-24",
+}
+export let marginstyles = {
+	normal: "m-6 sm:m-10 md:m-12 xl:m-24",
+	left: "ml-6 sm:ml-10 md:ml-12 xl:ml-24",
+	top: "mt-6 sm:mt-10 md:mt-12 xl:mt-24",
 }
 
 export let translate = {

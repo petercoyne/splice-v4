@@ -40,7 +40,7 @@
 			<div class="flex flex-col gap-x-8 items-center
 						sm:grid sm:grid-cols-2">
 
-				<img src="/landing/responsive.webp" alt="Responsive design"
+				<img src="/landing/responsive-ph.webp" alt="Responsive design"
 						class="mt-8 object-contain w-full h-full
 								sm:mt-0 sm:translate-x-8
 								xl:translate-x-24
